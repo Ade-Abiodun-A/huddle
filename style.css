@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+.logo-div {
+    width: 100px;
+    height: 20px;
+    flex: 50%;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mockup-div {
+    width: 1100px;
+    height: 320px;
+    flex: 55%;
+}
+
+.mockup {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-div {
+    width: 500px;
+    height: 180px;
+    flex: 50%;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+}
+
+.rows {
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 920px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rbga(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.row1 {
+    display: flex;
+}
+
+.rowhead {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-weight: 700px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.left-div {
+    flex: 50%;
+    padding: 60px;
+}
+
+.left1-div {
+    flex: 45%;
+}
+
+header {
+    width: 100%;
+    height: 410px;
+    margin-bottom: 25px;
+    background-color: hsl(193, 100%, 96%);
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.btn {
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+.position {
+    width: 300px;
+    height: 80px;
+    box-shadow: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    position: absolute;
+    left: 320px;
+    bottom: -145px;
+    z-index: 10;
+    background-color: white;
+}
+
+h4 {
+    font-weight: 600px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+.icon-div{
+    display: flex;
+    padding: 10px 40px 10px 40px;
+}
+/* .icon-div2{
+    display: flex;
+    margin: 8px;
+
+}
+.icon-div3{
+    display: flex;
+    margin: 8px;
+} */
+.row-nav{
+    display: flex;
+}
+/* .nav-col{
+   flex-direction: column; 
+} */
